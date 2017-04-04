@@ -62,7 +62,9 @@ But it's cumbersome, and I always forget that step...
 Since kexts are loaded according to the USB VID / PID, we changed the VID / PID / Description of the FT232 chip using [FT_Prog](http://www.ftdichip.com/Support/Utilities.htm#FT_PROG) under Windows. Changing to those exacts values is required if you want to use the host software provided since they are hard-coded for the time being.
 
 ```
-To be added when PID request approved
+Product Description : gbcflsh
+VID : 1209
+PID : 6BCF
 ```
 
 Those IDs are provided by the awesome [pid.codes project](http://pid.codes/).
